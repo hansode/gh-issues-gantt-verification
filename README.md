@@ -37,8 +37,15 @@ $ vagrant ssh
 Configure gh-issues-gantt.
 
 ```
+$ cd gh-issues-gantt
 $ vi config.js
 $ vi public/config.js
+```
+
+Start the server
+
+```
+$ node server.js
 ```
 
 References

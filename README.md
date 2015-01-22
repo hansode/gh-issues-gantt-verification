@@ -15,6 +15,13 @@ Requirements
 Getting Started
 ---------------
 
+Clone a repository.
+
+```
+$ git clone https://github.com/hansode/gh-issues-gantt-verification.git
+$ cd gh-issues-gantt-verification
+```
+
 Create a VM.
 
 ```
@@ -25,6 +32,13 @@ Connect to the VM.
 
 ```
 $ vagrant ssh
+```
+
+Configure gh-issues-gantt.
+
+```
+$ vi config.js
+$ vi public/config.js
 ```
 
 References
